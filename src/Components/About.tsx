@@ -95,7 +95,7 @@ const About = () => {
 
                         <Button
     component='a'
-    href={`${process.env.PUBLIC_URL}/portfolio/asset/CV-NguyenAnhQuoc-Intern.pdf`}
+    href={`${process.env.PUBLIC_URL}/asset/CV-NguyenAnhQuoc-Intern.pdf`}
     download
     variant='outline'
     color='#64FFDA'
@@ -115,7 +115,7 @@ const About = () => {
                     >
                         <img
     className="w-[90%] rounded-full z-10 object-cover"
-    src={`${process.env.PUBLIC_URL}/portfolio/asset/user-avater.jpg`}
+    src={`${process.env.PUBLIC_URL}/asset/user-avater.jpg`}
     alt="User Avatar"
 />
                     </div>
