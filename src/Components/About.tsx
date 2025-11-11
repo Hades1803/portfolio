@@ -94,16 +94,16 @@ const About = () => {
                         </Button>
 
                         <Button
-                            component='a'
-                            href="/asset/CV - Nguyen Anh Quoc- Intern .pdf"
-                            download
-                            variant='outline'
-                            color='#64FFDA'
-                            size='md'
-                            className='!w-full xs:!w-fit !border-primaryColor !text-primaryColor justify-center'
-                        >
-                            Download CV
-                        </Button>
+    component='a'
+    href={`${process.env.PUBLIC_URL}/asset/CV - Nguyen Anh Quoc- Intern .pdf`}
+    download
+    variant='outline'
+    color='#64FFDA'
+    size='md'
+    className='!w-full xs:!w-fit !border-primaryColor !text-primaryColor justify-center'
+>
+    Download CV
+</Button>
                     </div>
                 </div>
 
@@ -114,10 +114,10 @@ const About = () => {
                         id="photo"
                     >
                         <img
-                            className="w-[90%] rounded-full z-10 object-cover"
-                            src="/asset/user-avater.jpg"
-                            alt="User Avatar"
-                        />
+    className="w-[90%] rounded-full z-10 object-cover"
+    src={`${process.env.PUBLIC_URL}/asset/user-avater.jpg`}
+    alt="User Avatar"
+/>
                     </div>
                 </div>
             </div>

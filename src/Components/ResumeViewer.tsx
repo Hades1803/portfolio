@@ -34,9 +34,9 @@ const ResumeViewer = (props: { opened: boolean, close: () => void }) => {
         <Modal.Body 
           className="!bg-bgColor !border-primaryColor !border-2 !border-t-0 !rounded-bl-3xl !rounded-br-3xl"
         >
-          <Document file="/asset/CV - Nguyen Anh Quoc- Intern .pdf">
-            <Page pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false}/>
-          </Document>
+          <Document file={`${process.env.PUBLIC_URL}/asset/CV - Nguyen Anh Quoc- Intern .pdf`}>
+  <Page pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false}/>
+</Document>
         </Modal.Body>
       </Modal.Content>
     </Modal.Root>
