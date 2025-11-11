@@ -108,7 +108,7 @@ const About = () => {
                 </div>
 
                 {/* Photo Section */}
-                <div className="w-full lg:w-2/5 flex justify-center items-center order-1 lg:order-2">
+                <div className="w-full lg:w-2/5 flex justify-center items-center order-1 lg:order-2 !z-0">
                     <div
                         className="h-[300px] xs:h-[350px] sm:h-[400px] md:h-[450px] lg:h-[50vh] w-[300px] xs:w-[350px] sm:w-[400px] md:w-[450px] lg:w-[25vw] max-w-[90vw] flex justify-center items-center rounded-full mx-auto lg:mx-8 xl:mx-14 overflow-hidden mt-4 lg:mt-0"
                         id="photo"
