@@ -95,7 +95,7 @@ const About = () => {
 
                         <Button
     component='a'
-    href={`${process.env.PUBLIC_URL}/portfolio/asset/CV - Nguyen Anh Quoc- Intern .pdf`}
+    href={`${process.env.PUBLIC_URL}/portfolio/asset/CV-NguyenAnhQuoc-Intern.pdf`}
     download
     variant='outline'
     color='#64FFDA'
